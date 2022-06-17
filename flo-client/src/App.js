@@ -1,8 +1,8 @@
-import Router from './Router';
-
+"use strict";
+exports.__esModule = true;
+var Router_1 = require("./Router");
 // On this file you want to add shared behaviours or context providers to make them available to the whole app (redux provider, etc..)
 function App() {
-  return <Router />;
+    return <Router_1["default"] />;
 }
-
-export default App;
+exports["default"] = App;
