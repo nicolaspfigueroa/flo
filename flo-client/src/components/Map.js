@@ -24,7 +24,7 @@ const Map = ({ journeys }) => {
   };
 
   return (
-    <LoadScript googleMapsApiKey={API_KEY} language='en'>
+    <LoadScript googleMapsApiKey={"AIzaSyCJRh8iW___YUpIZ-Ukzn2Rk48wYeRFk9M"} language='en'>
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={mapContainer}
