@@ -16,14 +16,18 @@ describe('Sidebar component tests', () => {
     expect(sideBarElement).toBeInTheDocument();
   })
 
-  it('Should have one entry', () => {
+  it('Should have one entry with correct name and date', () => {
     render(
       <Router>
         <SideBar journeys={[journeyDetails]}/>
       </Router>);
-    const sideBarElement = screen.getByTestId('title-1');
-    expect(sideBarElement).toBeInTheDocument();
-    expect(sideBarElement).toHaveTextContent('New York');
+    const titleElement = screen.getByTestId('title-1');
+    expect(titleElement).toBeInTheDocument();
+    expect(titleElement).toHaveTextContent('New York');
+    const dateElement = screen.getByTestId('date-1');
+    expect(dateElement).toBeInTheDocument();
+    expect(dateElement).toHaveTextContent('4 days');
   })
+
 
 })
