@@ -68,7 +68,7 @@ interface Props {
 
 const SideBar: React.FC<Props> = ({ journeys }) => {
   return (
-    <Travelscroll>
+    <Travelscroll data-testid = "sidebar-1">
       {journeys &&
         journeys.map((el) => (
           <Travel key={el._id} to={`/journeys/${el._id}`}>
