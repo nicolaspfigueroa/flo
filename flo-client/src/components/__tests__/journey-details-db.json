@@ -1,0 +1,94 @@
+{
+  "coverImg": "https://images.unsplash.com/photo-1522083165195-3424ed129620?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1994&q=80",
+  "title": "New York",
+  "durationInDays": 4,
+  "accomodation": "Hilton San Francisco Union Square",
+  "coordinates": {
+    "lat": 40.712784,
+    "lng": -74.005941
+  },
+  "stages": [
+    {
+      "title": "Day 1",
+      "description": "Manhattan",
+      "todos": [
+        {
+          "name": "Empire State Buildin",
+          "completed": false
+        },
+        {
+          "name": "Times Square",
+          "completed": false
+        },
+        {
+          "name": "Chrysler Building",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "title": "Day 2",
+      "description": "Manhattan",
+      "todos": [
+        {
+          "name": "China Town",
+          "completed": false
+        },
+        {
+          "name": "Little Italy",
+          "completed": false
+        },
+        {
+          "name": "Brooklyng Bridge",
+          "completed": false
+        },
+        {
+          "name": "Tenement Museum",
+          "completed": false
+        },
+        {
+          "name": "City All",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "title": "Day 3",
+      "description": "Brookling",
+      "todos": [
+        {
+          "name": "Brookling Bridge Park",
+          "completed": false
+        },
+        {
+          "name": "Brookling Museum",
+          "completed": false
+        },
+        {
+          "name": "Coney Island",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "title": "Day 4",
+      "description": "Financial District",
+      "todos": [
+        {
+          "name": "Times Square",
+          "completed": false
+        },
+        {
+          "name": "Liberty Island",
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "restaurants": [],
+  "notes": [
+    {
+      "note": []
+    }
+  ]
+}
