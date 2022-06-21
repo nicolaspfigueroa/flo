@@ -16,4 +16,14 @@ describe('Sidebar component tests', () => {
     expect(sideBarElement).toBeInTheDocument();
   })
 
+  it('Should have one entry', () => {
+    render(
+      <Router>
+        <SideBar journeys={[journeyDetails]}/>
+      </Router>);
+    const sideBarElement = screen.getByTestId('title-1');
+    expect(sideBarElement).toBeInTheDocument();
+    expect(sideBarElement).toHaveTextContent('New York');
+  })
+
 })

@@ -74,7 +74,7 @@ const SideBar: React.FC<Props> = ({ journeys }) => {
           <Travel key={el._id} to={`/journeys/${el._id}`}>
             <BuildingContainer src={el.coverImg} />
             <InfoContainer>
-              <TitleContainer>{el.title}</TitleContainer>
+              <TitleContainer data-testid = "title-1">{el.title}</TitleContainer>
               <CalendarContainer>
                 <CalendarAlt fontSize={16} color='#737577' />{' '}
                 {el.durationInDays} days
