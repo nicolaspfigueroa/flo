@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Journey component tests Matches snapshot 1`] = `
+<div
+  className="sc-bZkfAO jpzbYm"
+  data-testid="journey"
+>
+  <div
+    className="sc-bZkfAO jpzbYm"
+  >
+    <header
+      className="sc-llJcti kBliAW"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="flologo.png"
+          className="sc-ezWOiH hVsgb"
+          src="flologo.png"
+        />
+      </a>
+      <div
+        className="sc-iIPllB iSCZrQ"
+      >
+        <span
+          className="sc-fnykZs kYzwyj"
+          color="#737577"
+          fontSize={18}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 5.08a3.08 3.08 0 00-5.26-2.18l-2.81 2.81-6.49-2.16a1 1 0 00-1 .24L4.06 6.15a1 1 0 00.29 1.61l5.18 2.35-2.6 2.6-1.71-.86a1 1 0 00-1.16.15l-1.77 1.81a1 1 0 000 1.41l6.49 6.49a1 1 0 001.41 0L12 19.94a1 1 0 00.19-1.16l-.86-1.71 2.6-2.6 2.35 5.18a1 1 0 001.61.29l2.36-2.36a1 1 0 00.24-1l-2.16-6.49 2.77-2.83a3.05 3.05 0 00.9-2.18zm-2.32.77l-3.24 3.24a1 1 0 00-.24 1l2.16 6.48-.9.9-2.35-5.17a1 1 0 00-.73-.57 1 1 0 00-.89.28l-4.12 4.16a1 1 0 00-.19 1.15L10 19l-.56.56-5.03-5.04L5 14l1.71.86a1 1 0 001.15-.19L12 10.51a1 1 0 00-.29-1.62L6.5 6.54l.9-.9 6.48 2.16a1 1 0 001-.24l3.24-3.24a1.07 1.07 0 011.53 0 1 1 0 01.32.76 1.06 1.06 0 01-.29.77z"
+            />
+          </svg>
+        </span>
+        <input
+          className="sc-gicCDI egZijD"
+          onChange={[Function]}
+          placeholder="Type here your destination..."
+          type="search"
+        />
+      </div>
+    </header>
+    <div
+      className="sc-ikZpkk bjmMqy"
+      src=""
+    />
+    <div
+      className="sc-jIZahH xloQz"
+    >
+      <div
+        className="sc-kLLXSd iwCFlr"
+      >
+        <h1
+          className="sc-himrzO ThAGG"
+          data-testid="journey-title"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-kLLXSd sc-gXmSlM iwCFlr ijJSQu"
+  >
+    <h2
+      className="sc-ciZhAO bbBxVK"
+      data-testid="journey-date"
+    >
+      Numbers of days: 
+      0
+    </h2>
+    <li
+      className="sc-jSMfEi jjqdDn"
+    >
+      <h1
+        className="sc-iBkjds WyVDx"
+        onClick={[Function]}
+      />
+      <div
+        className="sc-gKXOVf"
+      />
+    </li>
+    <h2
+      className="sc-ciZhAO bbBxVK"
+    >
+      Restaurants
+    </h2>
+    <div
+      className="sc-cCsOjp bhnutD"
+    >
+      <div
+        className="sc-ftvSup iuqzyy"
+      >
+        <div
+          className="sc-ftvSup sc-crXcEl iuqzyy jWikBQ"
+        />
+        <form
+          className="sc-papXJ dGUuEg"
+          onSubmit={[Function]}
+        >
+          <input
+            className="sc-jqUVSM dAJZmA"
+            name="name"
+            placeholder="Name"
+            required={true}
+            type="text"
+          />
+          <input
+            className="sc-jqUVSM dAJZmA"
+            name="address"
+            placeholder="Address"
+            required={true}
+            type="text"
+          />
+          <input
+            className="sc-jqUVSM dAJZmA"
+            name="cuisineTypes"
+            placeholder="Cuisine Type"
+            required={true}
+            type="text"
+          />
+          <input
+            className="sc-jqUVSM dAJZmA"
+            name="suggestedFor"
+            placeholder="Suggested for"
+            type="text"
+          />
+          <button
+            className="sc-kDDrLX eTAwTH"
+            type="submit"
+          >
+            CREATE
+          </button>
+        </form>
+      </div>
+    </div>
+    <div
+      className="sc-kgflAQ bRBPFN"
+    >
+      <h2
+        className="sc-fLlhyt hPzCEM"
+      >
+        Notes
+      </h2>
+      <form
+        className="sc-bBrHrO becQeW"
+        onSubmit={[Function]}
+      >
+        <input
+          className="sc-ivTmOn hxSlsZ"
+          name="note"
+          placeholder="Type note..."
+          required={true}
+          type="text"
+        />
+        <button
+          className="sc-cxabCf bGfuCg"
+          type="submit"
+        >
+          ADD NOTE
+        </button>
+      </form>
+    </div>
+    <div
+      className="sc-hHLeRK drsgiq"
+    >
+      <div
+        className="sc-dmRaPn ckHesh"
+      >
+        <div
+          className="sc-fEOsli dPMRIB"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
