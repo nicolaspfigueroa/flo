@@ -174,7 +174,7 @@ const Restaurants: React.FC<Props> = ({ journeyId, place }) => {
           name='suggestedFor'
           placeholder='Suggested for'
         ></Input>
-        <Button type='submit'>CREATE</Button>
+        <Button id = 'create' type='submit'>CREATE</Button>
       </Form>
     </Container>
   );

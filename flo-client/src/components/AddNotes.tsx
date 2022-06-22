@@ -141,7 +141,7 @@ const AddNotes: React.FC<Props> = ({ journey, notes, setJourney }) => {
             placeholder='Type note...'
             required
           ></TypeNote>
-          <AddNoteButton type='submit'>ADD NOTE</AddNoteButton>
+          <AddNoteButton id = 'notebutton' type='submit'>ADD NOTE</AddNoteButton>
         </Form>
       </TitleContainer>
       <Container>
