@@ -90,18 +90,18 @@ const Journey: React.FC = () => {
   }
 
   return (
-    <FullContainer>
+    <FullContainer data-testid = "journey">
       <FullContainer>
         <Header onChange = {onChange}/>
         <Photo src={journey.coverImg}></Photo>
         <TitleContainer>
           <Container>
-            <Title>{journey.title}</Title>
+            <Title data-testid = "journey-title">{journey.title}</Title>
           </Container>
         </TitleContainer>
       </FullContainer>
       <ContainerPage>
-        <Section>Numbers of days: {journey.durationInDays}</Section>
+        <Section data-testid = "journey-date">Numbers of days: {journey.durationInDays}</Section>
         <Schedule days={journey.stages}></Schedule>
         <Section>Restaurants</Section>
         <RestaurantContainer>
