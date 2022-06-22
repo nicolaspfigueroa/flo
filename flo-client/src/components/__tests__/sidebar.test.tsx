@@ -4,8 +4,11 @@ import * as ReactDOM from 'react-dom';
 const journeyDetails = require('./journey-details-db.json');
 import {createRoot} from 'react-dom/client'
 import { BrowserRouter as Router } from "react-router-dom";
+import renderer from 'react-test-renderer';
 
 describe('Sidebar component tests', () => {
+
+  afterEach(cleanup);
 
   it('Renders correctly', () => {
     render(
@@ -29,5 +32,14 @@ describe('Sidebar component tests', () => {
     expect(dateElement).toHaveTextContent('4 days');
   })
 
+  it('Matches snapshot', () => {
+    const tree = renderer.create(
+      <Router>
+        <SideBar journeys={[journeyDetails]}/>
+      </Router>
+    ).toJSON();
+
+    expect(tree).toMatchSnapshot();
+  })
 
 })
