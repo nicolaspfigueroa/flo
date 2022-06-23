@@ -135,6 +135,7 @@ exports[`Journey component tests Matches snapshot 1`] = `
           />
           <button
             className="sc-kDDrLX eTAwTH"
+            id="create"
             type="submit"
           >
             CREATE
@@ -163,6 +164,7 @@ exports[`Journey component tests Matches snapshot 1`] = `
         />
         <button
           className="sc-cxabCf bGfuCg"
+          id="notebutton"
           type="submit"
         >
           ADD NOTE

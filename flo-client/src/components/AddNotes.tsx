@@ -1,9 +1,10 @@
 import styled from 'styled-components'; 
 import React, { Dispatch, useEffect, useState } from 'react';
-
+import { journey } from '../interfaces/journey';
 import { addNewNote } from '../Utilities/Service';
 import { eventReact } from '../interfaces/eventReact';
 import Notes from './Notes';
+import { Note } from '../interfaces/note';
  
 const Container = styled.div`
   display: flex;
@@ -66,45 +67,6 @@ const AddNoteButton = styled.button`
   margin: 4px;
   margin-right: 18px;
 `;
-export interface Note{
-  id : string; note : string; _id: string;
-}
-
-type journey = {
-  coordinates: {
-    lat: number,
-    lng: number
-  },
-  coverImg: string,
-  durationInDays: number,
-  title: string,
-  _id: string,
-  accomodation: string,
-  stages: stage[],
-  restaurants: restaurant[],
-  notes: Note[]
-}
-
-type restaurant = {
-  name: string,
-  address: string,
-  cuisineTypes: string,
-  suggestedFor: string,
-  _id: string
-}
-
-type stage = {
-  title: string,
-  description: string,
-  todos: Todos[]
-}
-
-type Todos = {
-  name: string,
-  completed: boolean,
-  title: string
-}
-
 
 interface Props {
   journey: {_id: string};
