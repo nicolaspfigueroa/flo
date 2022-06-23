@@ -36,16 +36,6 @@ describe('getJourneysById working', () => {
     })
 })
 
-describe('addNewNote working', () => {
-    test('journey Id exists in the db', async() => {
-        const journey = await Journey.findOne({ title: "New York"});
-        const jsonResponse = await api.get('/journeys/' + journey._id);
-        const response = JSON.parse(jsonResponse.text); 
-        expect(response.title).toBe("New York");
-    })
-})
-
-
 
 afterAll(async () => {
     await Journey.deleteMany()
