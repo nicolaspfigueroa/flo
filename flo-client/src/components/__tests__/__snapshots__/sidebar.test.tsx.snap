@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar component tests Matches snapshot 1`] = `
+<div
+  className="sc-dkzDqf jGcYtC"
+  data-testid="sidebar-1"
+>
+  <a
+    className="sc-hKMtZM gLvSeQ"
+    href="/journeys/undefined"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-eCYdqJ ebtCie"
+      src="https://images.unsplash.com/photo-1522083165195-3424ed129620?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1994&q=80"
+    />
+    <div
+      className="sc-jSMfEi fdytnS"
+    >
+      <h2
+        className="sc-gKXOVf bGLBqx"
+        data-testid="title-1"
+      >
+        New York
+      </h2>
+      <div
+        className="sc-iBkjds dLPlIO"
+      >
+        <span
+          className="sc-gsnTZi iMWdcr"
+          color="#737577"
+          fontSize={16}
+        >
+          <svg
+            data-name="Layer 1"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 19a1 1 0 10-1-1 1 1 0 001 1zm5 0a1 1 0 10-1-1 1 1 0 001 1zm0-4a1 1 0 10-1-1 1 1 0 001 1zm-5 0a1 1 0 10-1-1 1 1 0 001 1zm7-12h-1V2a1 1 0 00-2 0v1H8V2a1 1 0 00-2 0v1H5a3 3 0 00-3 3v14a3 3 0 003 3h14a3 3 0 003-3V6a3 3 0 00-3-3zm1 17a1 1 0 01-1 1H5a1 1 0 01-1-1v-9h16zm0-11H4V6a1 1 0 011-1h1v1a1 1 0 002 0V5h8v1a1 1 0 002 0V5h1a1 1 0 011 1zM7 15a1 1 0 10-1-1 1 1 0 001 1zm0 4a1 1 0 10-1-1 1 1 0 001 1z"
+            />
+          </svg>
+        </span>
+         
+        <div
+          data-testid="date-1"
+        >
+          4
+           days
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+`;
